@@ -1,0 +1,107 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\rabia\Desktop\141044042\PART2\cakas_rabia_141044042_restored\simulation\modelsim
+v_5bit_adder
+IT>kLECV>Qg3@0=TEof9bJ3
+V4S@6[3f>EY?OWEmJN`lfJ1
+Z1 dC:\Users\rabia\Desktop\141044042\PART2\cakas_rabia_141044042_restored\simulation\modelsim
+w1509100976
+8C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/_5bit_adder.v
+FC:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/_5bit_adder.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored -O0
+n@_5bit_adder
+!i10b 1
+!s100 8X^XVVRiOeP??4`UoD1]11
+!s85 0
+!s108 1509123539.265000
+!s107 C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/_5bit_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored|C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/_5bit_adder.v|
+!s101 -O0
+vfull_adder
+IJ14cU`kEFB6aczO8lP>Dj2
+VRYP>nD9R>G8ML@J?Oi=:32
+R1
+w1509101007
+8C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/full_adder.v
+FC:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/full_adder.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 FRXG:l`=>R8L=zzhfXa9?3
+!s85 0
+!s108 1509123539.525000
+!s107 C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored|C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/full_adder.v|
+!s101 -O0
+vhalf_adder
+IhDHIoZl[Kci>iFYH@8K0C1
+VUANSHBM`n;lleGcSze4Z^1
+R1
+w1509101032
+8C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/half_adder.v
+FC:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/half_adder.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 W9on=5l69_N6VbLGN1K>H0
+!s85 0
+!s108 1509123539.675000
+!s107 C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored|C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/half_adder.v|
+!s101 -O0
+vlikeALU
+IS[c@V:anfohcVNb>ofeQ;2
+VT@0069F;U7zi`8LU:WGm[1
+R1
+w1509102183
+8C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU.v
+FC:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU.v
+L0 1
+R2
+r1
+31
+R3
+nlike@a@l@u
+R4
+!i10b 1
+!s100 7]82kOK0QIoQm=1OfY_8B1
+!s85 0
+!s108 1509123538.695000
+!s107 C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored|C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU.v|
+!s101 -O0
+vlikeALU_testbench
+!i10b 1
+!s100 ^UGJ:IFYckd6]Q[6fR^@L0
+I2[BTj91WbccWeJF<6`X381
+VfjYQR7[mMcnI><]e^M5063
+R1
+w1509101118
+8C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU_testbench.v
+FC:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU_testbench.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1509123562.286000
+!s107 C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU_testbench.v|
+!s90 -reportprogress|300|-work|work|C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU_testbench.v|
+!s101 -O0
+o-work work -O0
+nlike@a@l@u_testbench

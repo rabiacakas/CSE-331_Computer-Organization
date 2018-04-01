@@ -1,0 +1,60 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do likeALU_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored {C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module likeALU
+# 
+# Top level modules:
+# 	likeALU
+# vlog -vlog01compat -work work +incdir+C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored {C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/_5bit_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _5bit_adder
+# 
+# Top level modules:
+# 	_5bit_adder
+# vlog -vlog01compat -work work +incdir+C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored {C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# vlog -vlog01compat -work work +incdir+C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored {C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/half_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module half_adder
+# 
+# Top level modules:
+# 	half_adder
+# 
+vlog -reportprogress 300 -work work C:/Users/rabia/Desktop/141044042/PART2/cakas_rabia_141044042_restored/likeALU_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module likeALU_testbench
+# 
+# Top level modules:
+# 	likeALU_testbench
+vsim work.likeALU_testbench
+# vsim work.likeALU_testbench 
+# Loading work.likeALU_testbench
+# Loading work.likeALU
+# Loading work._5bit_adder
+# Loading work.full_adder
+# Loading work.half_adder
+add wave -position insertpoint  \
+sim:/likeALU_testbench/in_A \
+sim:/likeALU_testbench/in_B \
+sim:/likeALU_testbench/selectBit \
+sim:/likeALU_testbench/outputFinal
+step -current
+# time =  0, in_A=11110, in_B=10111, selectBit=00, out=10110
+# time = 20, in_A=11111, in_B=11111, selectBit=01, out=11110
+# time = 40, in_A=11010, in_B=11010, selectBit=10, out=11010
+# time = 60, in_A=11111, in_B=11110, selectBit=11, out=00001

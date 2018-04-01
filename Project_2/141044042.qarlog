@@ -1,0 +1,30 @@
+Quartus II Archive log --	C:/Users/rabia/Desktop/141044042/141044042.qarlog
+
+Archive:	C:/Users/rabia/Desktop/141044042/141044042.qar
+Date:		Tue Nov 21 11:45:02 2017
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/rabia/Desktop/141044042/ALU.v
+C:/Users/rabia/Desktop/141044042/ALU_testbench.v
+C:/Users/rabia/Desktop/141044042/assignment_defaults.qdf
+C:/Users/rabia/Desktop/141044042/db/project02.db_info
+C:/Users/rabia/Desktop/141044042/incremental_db/compiled_partitions/project02.db_info
+C:/Users/rabia/Desktop/141044042/mips_core.v
+C:/Users/rabia/Desktop/141044042/mips_core_testbench.v
+C:/Users/rabia/Desktop/141044042/mips_registers.v
+C:/Users/rabia/Desktop/141044042/mips_registers_testbench.v
+C:/Users/rabia/Desktop/141044042/project02.qpf
+C:/Users/rabia/Desktop/141044042/project02.qsf
+C:/Users/rabia/Desktop/141044042/registers.mem
+C:/Users/rabia/Desktop/141044042/simulation/modelsim/registers.mem
+	======= Total: 13 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Nov 21 11:47:16 2017
+Source archive file:	C:/Users/rabia/Desktop/141044042/141044042.qar
+Archive was extracted into	C:/Users/rabia/Desktop/141044042/141044042_restored/
+		 - successfully.
